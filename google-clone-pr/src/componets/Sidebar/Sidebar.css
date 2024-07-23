@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 230px;
+    color: #101010;
+    box-sizing: border-box;
+    position: fixed;
+    background: rgb(119, 158, 178);
+    height: 100%;
+    margin-top:70px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 200px;
+      text-align: justify;
+}
+
+.sidebar a {
+    display: block;
+    color: #101010;
+    text-decoration: none;
+    padding: 10px 0px 10px 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+    border-radius: 25px;
+}
+
+/* Change background color on hover */
+.sidebar a:hover {
+    background-color: #2980b9;
+}
